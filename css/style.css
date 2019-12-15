@@ -1,0 +1,245 @@
+/* ==================================== Header ==================================== */
+.textHeader,.textHeader a{
+    font-size: 12px;
+    color: #130e49;
+    font-family: Montserrat;
+    opacity: 0.8;
+    font-weight: 500;
+}
+.navbar-light{
+    padding-left: 7rem !important;
+}
+.textHeader:hover,.textHeader a:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.hr{
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+.hr2{
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.textMedia{
+    text-align: right;
+}
+.media .fa{
+    color: gray;
+}
+@media screen and (max-width:700px){
+    .textMedia a ,.textMedia{
+        text-align: left;
+        font-size: 9px;
+    }
+    .btnBook{
+        display: block;
+        width: 100%;
+    }
+    .btn-outline-light{
+        width: 100%;
+        display: block;
+        margin-top: 1rem;
+    }
+    .footer h6{
+        font-size: 9px !important;
+    }
+    .imgWidth{
+        display: none !important;
+    }
+}
+@media screen and (max-width:1024px){
+    .navbar-light{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important; 
+    }
+}
+.navbar .nav-item .nav-link{
+    font-size: 12px;
+    color: #130e49;
+    opacity: 0.5;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-weight: bold;
+}
+.introduction h2{
+    color: #13123f;
+    font-size: 32px;
+    font-family: Baskervville;
+}
+.introduction h5{
+    color:#338cff;
+    font-size: 12px;
+}
+.introduction h6{
+    color: rgba(87, 76, 87, 0.667);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+.btnBook{
+    background-color: #338cff;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 3px;
+    font-family: Montserrat;
+}
+.btnBook:hover{
+    border: 1px solid #130e49;
+    background-color: white;
+    color: #130e49;
+}
+.media p{
+    font-size: 12px;
+    font-family: Montserrat;
+    color: #13123f;
+    opacity: 0.5;
+}
+@media screen and (min-width:800px){
+
+    .card1{
+        border-left: 0;
+    }
+    .card2{
+        border-right: 0;
+    }
+}
+.fertility h2{
+    font-size: 33px;
+    color: #13123f;
+    font-weight: 500;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    font-family: LibreBaskerville;
+}
+.textPage{
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    color: #13123f;
+}
+.textPageSmall{
+    font-size: 11px;
+    /* letter-spacing: 0.4px; */
+    opacity: 0.8;
+    font-family: Montserrat;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    color: #13123f;
+}
+.vl {
+    margin-top: 15px;
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    border-left: 1px solid rgb(207, 196, 196);
+    height: 70%;
+    min-height: 70%;
+}
+.btn-outline-light{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Montserrat;
+    border: solid 1.4px #ffffff;
+    border-radius: 3px;
+    padding: 0.8rem 2rem;
+}
+.btn-outline-light:hover{
+    color: #338cff;
+    background-color: #ffffff
+}
+.card:hover {
+    background-color: #9fbff3;
+    cursor: pointer;
+    /* color: white; */
+}
+.card{
+    border-radius: 0;
+}
+.card-title{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #13123f;
+}
+.jumbotron{
+    background-color: #338cff;
+}
+.jumbotron h4{
+    font-family: LibreBaskerville;
+    font-size: 26px;
+}
+.jumbotron p{
+    font-family: Montserrat;
+    opacity: 0.7;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.contentText h4{
+    font-family: LibreBaskerville;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.86;
+    letter-spacing: normal;
+    text-align: center;
+    color: #13123f;
+}
+.footer h6{
+    font-size: 11px;
+    padding-top: 2rem;
+    padding-bottom: 6px;
+    font-weight: bold;
+    color: #130e49;
+}
+.footer p {
+    margin: 5px;
+}
+.footer p a{
+    font-size: 12px;
+    opacity: 0.6;
+    font-weight: normal;
+    font-stretch: normal;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #130e49;
+}
+.imgWidth{
+    position: absolute;
+    left: -145px;
+    max-height: 462px;
+    overflow: hidden;
+    top: -18px;
+    width: 122.5%;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    border-radius: 4px;
+    box-shadow: 0 10px 49px 9px rgba(0, 0, 0, 0.07), 0 12px 16px -7px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+}
