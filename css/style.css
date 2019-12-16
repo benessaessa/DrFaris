@@ -161,12 +161,12 @@
     background-color: #ffffff
 }
 .card:hover {
-    background-color: #9fbff3;
+    background-color: #eee;
     cursor: pointer;
     /* color: white; */
 }
 .card{
-    border-radius: 0;
+    border-radius: 6px;
 }
 .card-title{
     font-family: Montserrat;
@@ -242,4 +242,77 @@
     border-radius: 4px;
     box-shadow: 0 10px 49px 9px rgba(0, 0, 0, 0.07), 0 12px 16px -7px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
+}
+.slideSection{  
+    padding: 6%;
+}
+.carousel-inner img {
+    margin-left: 5px;
+    width: 320px;
+    height: 240px;
+  
+}
+.secHide h2{
+    font-family: LibreBaskerville;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.37;
+    letter-spacing: normal;
+    color: #13123f;
+}
+.secHide h3{
+    padding-top: 1rem;
+    font-family: Mermaid;
+    font-size: 19.2px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #13123f;
+}
+.secHide h4{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #838383;
+}
+.carousel-indicators{
+    left: -8%;
+    z-index: 15;
+    right: unset;
+    top: 17rem;
+    float: left;
+}
+.carousel-indicators li{
+    width: 14px;
+    height: 14px;
+    background-color: #21204b;
+    border-radius: 50%;
+}
+.fRight{
+    float: right;
+}
+@media screen and (max-width: 900px) {
+    .slideSection{
+        display: none;
+    }
+    .fRight{float: none;}
+    .secHide{
+      display: none;
+    }
+    .carousel-image{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    .firstHead{
+        padding-left: 1.2rem;
+    }
 }
