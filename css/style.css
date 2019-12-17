@@ -1,4 +1,32 @@
+@font-face {
+    font-family: 'Avenir Next';
+    src: url("http://www.yoursite.com/fonts/Avenir_Next.otf"); /* File to be stored at your site */
+}
+@font-face {
+    font-family: "AvenirNext";
+    font-weight: normal;
+    src: url('../fonts/AvenirNextLTPro-MediumCn.otf');
+    src: local("AvenirNext"), url("../fonts/fonts/fonts/AvenirNextLTPro-MediumCn.otf") format("otf") ,url("../fonts/AvenirNextLTPro-Regular.otf");
+}
+@font-face {
+    font-family: "AvenirNextBold";
+    font-weight: bold;
+    src: url('../fonts/AvenirNextLTPro-MediumCn.otf');
+    src: local("AvenirNextBold"), url("../fonts/fonts/fonts/AvenirNextLTPro-MediumCn.otf") format("otf") ,url("../fonts/AvenirNextLTPro-MediumCn.otf");
+}
 /* ==================================== Header ==================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
 .textHeader,.textHeader a{
     font-size: 12px;
     color: #130e49;
@@ -8,7 +36,9 @@
 }
 .navbar-light{
     padding-left: 7rem !important;
+    padding-right: 1rem !important;
 }
+
 .textHeader:hover,.textHeader a:hover{
     opacity: 1;
     cursor: pointer;
@@ -47,12 +77,24 @@
     .imgWidth{
         display: none !important;
     }
-}
-@media screen and (max-width:1024px){
     .navbar-light{
         padding-left: 1rem !important;
+    }
+}
+@media screen and (width:1024px){
+    .navbar-light{
+        padding-left: 2rem !important;
         padding-right: 1rem !important; 
     }
+}
+@media screen and (width:1440px){
+    .navbar-light{
+        padding-left: 10.5% !important;
+        padding-right: 1rem !important; 
+    }
+}
+.navbar-collapse{
+    padding-left: 0.8rem;
 }
 .navbar .nav-item .nav-link{
     font-size: 12px;
@@ -60,7 +102,6 @@
     opacity: 0.5;
     font-family: Montserrat;
     font-size: 12px;
-    font-weight: normal;
     font-weight: bold;
 }
 .introduction h2{
@@ -110,21 +151,14 @@
     font-size: 33px;
     color: #13123f;
     font-weight: 500;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.43;
     font-family: LibreBaskerville;
 }
 .textPage{
     font-size: 13px;
     letter-spacing: 0.4px;
-    opacity: 0.8;
+    opacity: 0.6;
     font-family: Montserrat;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
     color: #13123f;
 }
 .textPageSmall{
@@ -132,10 +166,6 @@
     /* letter-spacing: 0.4px; */
     opacity: 0.8;
     font-family: Montserrat;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
     color: #13123f;
 }
 .vl {
@@ -172,10 +202,6 @@
     font-family: Montserrat;
     font-weight: 500;
     font-size: 12px;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #13123f;
 }
 .jumbotron{
@@ -188,21 +214,12 @@
 .jumbotron p{
     font-family: Montserrat;
     opacity: 0.7;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #ffffff;
 }
 .contentText h4{
     font-family: LibreBaskerville;
     font-size: 18px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 2.86;
-    letter-spacing: normal;
     text-align: center;
     color: #13123f;
 }
@@ -219,12 +236,7 @@
 .footer p a{
     font-size: 12px;
     opacity: 0.6;
-    font-weight: normal;
-    font-stretch: normal;
     font-weight: bold;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #130e49;
 }
 .imgWidth{
@@ -255,11 +267,7 @@
 .secHide h2{
     font-family: LibreBaskerville;
     font-size: 28px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.37;
-    letter-spacing: normal;
     color: #13123f;
 }
 .secHide h3{
@@ -267,20 +275,11 @@
     font-family: Mermaid;
     font-size: 19.2px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #13123f;
 }
 .secHide h4{
     font-family: Helvetica;
     font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #838383;
 }
 .carousel-indicators{
@@ -315,4 +314,129 @@
     .firstHead{
         padding-left: 1.2rem;
     }
+}
+/* ============================================================================================ */
+.secondPage{
+    bottom: -120px;
+}
+@media screen and (min-width:900px){
+    .jumbotronAbout{
+        height: 330px;
+    }
+    .secondPage .card{
+        width: 235px;
+    }
+}
+.secondPage .card{
+    margin: 0.5rem;
+    height: 317px;
+    padding: 1rem;
+    border-radius: 5.5px;
+    box-shadow: 0 8px 38px 7px rgba(0, 0, 0, 0.07), 0 9px 12px -5px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+}
+.secondPage .card .card-body{
+    padding:0.5rem
+}
+.secondPage .card h5{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: #13123f;
+}
+.secondPage .card p{
+    font-family: AvenirNext;
+    font-size: 13.7px;
+    font-weight: 500;
+    text-align: center;
+    color: #60607e;
+}
+.secondPage .card p a{
+    color: #101e8b;
+    font-family: "Montserrat";
+    font-size: 12px;
+    opacity: 1;
+    font-weight: bold;
+}
+.jumbotron h3{
+    font-family: LibreBaskerville;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.43;
+    letter-spacing: 0.08rem;
+    color: #ffffff;
+}
+.jumbotron h6{
+    font-family: Montserrat;
+    font-size: 14px;
+    opacity: 1;
+    font-weight: 600;
+    color: #ffffff;
+}
+.treat{
+    font-family: LibreBaskerville;
+    color: #13123f;
+    font-size: 34px;
+    padding-left: 1rem;
+}
+.textTreat{
+    color: #13123f;
+    opacity: 0.5;  
+    padding-left: 1rem; 
+    font-size: 14px;
+    font-family: Montserrat;
+}
+.jumbotronFooterAbout{
+    background-color: white;
+}
+.jumbotronFooterAbout .btn-outline-light{
+    font-size: 12px;
+    font-weight: bold;
+    color: #338cff;
+    background-color: #ffffff;
+    font-family: Montserrat;
+    border: solid 1.4px #3a8fff;
+    border-radius: 3px;
+    padding: 0.8rem 2rem;
+}
+.jumbotronFooterAbout .btn-outline-light:hover{
+    color: white;
+    background-color: #3a8fff;
+}
+.jumbotronFooterAbout h4{
+    color: #27264f;
+    font-family: LibreBaskerville;
+}
+.quickLinks{
+    font-family: Montserrat;
+    font-size: 15px;
+}
+.box{
+    padding: 0.8rem;
+    height: 129px;
+}
+.box h5{
+    font-size: 16px;
+    font-family: "AvenirNextBold";
+    color: #13123f;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.06rem;
+}
+.box a{
+    font-size: 12.3px;
+    color: #333259;
+    /* font-weight: bold; */
+    letter-spacing: 0.05rem;
+    font-family: "AvenirNextBold";
+}
+.textBox{
+    font-size: 11.2px;
+    color: #13123f;
+    opacity: 0.5;
+}
+.box:hover{
+    box-shadow: 0 8px 39px 7px rgba(0, 0, 0, 0.07), 0 10px 13px -6px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
