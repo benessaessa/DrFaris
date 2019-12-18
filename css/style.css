@@ -36,7 +36,15 @@ p{
 }
 .navbar-light{
     padding-left: 7rem !important;
-    padding-right: 1rem !important;
+    padding-right: 7rem !important;
+}
+
+.social_1,.social_2,.social_3{
+    font-size: 16px !important;
+}
+
+.social_1:hover,.social_2:hover,.social_3:hover{
+    opacity: 0.8;
 }
 
 .textHeader:hover,.textHeader a:hover{
@@ -79,29 +87,29 @@ p{
     }
     .navbar-light{
         padding-left: 1rem !important;
+        padding-right: 1rem !important;
     }
 }
 @media screen and (width:1024px){
     .navbar-light{
         padding-left: 2rem !important;
-        padding-right: 1rem !important; 
+        padding-right: 2rem !important; 
     }
 }
 @media screen and (width:1440px){
     .navbar-light{
         padding-left: 10.5% !important;
-        padding-right: 1rem !important; 
+        padding-right: 10.5% !important; 
     }
 }
 .navbar-collapse{
     padding-left: 0.8rem;
 }
 .navbar .nav-item .nav-link{
-    font-size: 12px;
+    font-size: 10px;
     color: #130e49;
     opacity: 0.5;
     font-family: Montserrat;
-    font-size: 12px;
     font-weight: bold;
 }
 .introduction h2{
