@@ -342,8 +342,15 @@ p{
     .jumbotronAbout{
         height: 330px;
     }
+    .jumbotronAboutUs{
+        height: 300px;
+    }
     .secondPage .card{
         width: 235px;
+    }
+    .secondPage .cardDr{
+        width: 100%;
+        height: 250px !important;
     }
 }
 .secondPage .card{
@@ -353,6 +360,9 @@ p{
     border-radius: 5.5px;
     box-shadow: 0 8px 38px 7px rgba(0, 0, 0, 0.07), 0 9px 12px -5px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
+}
+.secondPage .cardDr{
+    margin-top: 3rem;
 }
 .secondPage .card .card-body{
     padding:0.5rem
@@ -570,4 +580,15 @@ p{
 .accordion .card:hover{
     cursor: auto;
     background: none;
+}
+.AboutText{
+    color: #13123f;
+    font-size: 12px;
+}
+.textSmaller{
+    font-size: 11px !important;
+}
+.textDr{
+    font-size: 13px !important;
+    color: #0d1e34;
 }
