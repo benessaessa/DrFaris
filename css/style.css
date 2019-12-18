@@ -38,7 +38,10 @@ p{
     padding-left: 7rem !important;
     padding-right: 7rem !important;
 }
-
+.navbar-nav li.active a,.navbar-nav li.active a{
+    color: #338cff !important;
+    font-weight: bold;
+}
 .social_1,.social_2,.social_3{
     font-size: 16px !important;
 }
@@ -106,7 +109,7 @@ p{
     padding-left: 0.8rem;
 }
 .navbar .nav-item .nav-link{
-    font-size: 10px;
+    font-size: 10.5px;
     color: #130e49;
     opacity: 0.5;
     font-family: Montserrat;
