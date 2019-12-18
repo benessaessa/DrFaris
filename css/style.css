@@ -39,8 +39,9 @@ p{
     padding-right: 7rem !important;
 }
 .navbar-nav li.active a,.navbar-nav li.active a{
-    color: #338cff !important;
-    font-weight: bold;
+    color: #0b3e81 !important;
+    font-weight: 900;
+    font-family: Montserrat;
 }
 .social_1,.social_2,.social_3{
     font-size: 16px !important;
@@ -109,7 +110,7 @@ p{
     padding-left: 0.8rem;
 }
 .navbar .nav-item .nav-link{
-    font-size: 10.5px;
+    font-size: 11px;
     color: #130e49;
     opacity: 0.5;
     font-family: Montserrat;
@@ -167,6 +168,13 @@ p{
 }
 .textPage{
     font-size: 13px;
+    letter-spacing: 0.4px;
+    opacity: 0.6;
+    font-family: Montserrat;
+    color: #13123f;
+}
+.textPage2{
+    font-size: 16px;
     letter-spacing: 0.4px;
     opacity: 0.6;
     font-family: Montserrat;
@@ -400,6 +408,7 @@ p{
 }
 .jumbotronFooterAbout{
     background-color: white;
+    padding: 3rem 2rem 1rem 2rem;
 }
 .jumbotronFooterAbout .btn-outline-light{
     font-size: 12px;
@@ -419,17 +428,22 @@ p{
     color: #27264f;
     font-family: LibreBaskerville;
 }
-.quickLinks{
+.quickLinks a{
     font-family: Montserrat;
-    font-size: 15px;
+    font-size: 14px;
+    color: #338cff;
+}
+@media screen and (min-width:1000px){
+    .quickLinks a{
+        padding-right: 1rem;
+    }
 }
 .box{
     padding: 0.8rem;
     height: 129px;
 }
 .box h5{
-    font-size: 16px;
-    font-family: "AvenirNextBold";
+    font-size: 14px;
     color: #13123f;
     font-weight: 500;
     line-height: 20px;
@@ -450,4 +464,110 @@ p{
 .box:hover{
     box-shadow: 0 8px 39px 7px rgba(0, 0, 0, 0.07), 0 10px 13px -6px rgba(0, 0, 0, 0.15);
     cursor: pointer;
+}
+/* ======================================================================================= */
+.hero {
+    width: 100%;
+    height: 317px;
+    background: url(../images/bgSection.png) top center;
+    background-size: cover;
+    position: relative;
+}
+  
+.hero:before {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.hero .contentSection{
+    position: absolute;
+    bottom: 0;
+    top: 5rem;
+    left: 8rem;
+    right: 0;
+}
+@media screen and (width:1024px){
+    .hero .contentSection{
+        left: 3rem;
+    }
+}
+@media screen and (width:1440px){
+    .hero .contentSection{
+        left: 10rem !important;
+    }
+}
+@media screen and (max-width:600px){
+    .hero .contentSection{
+        left: 1.5rem !important;
+    }
+}
+.contentSection h2{
+    color: #ffffff;
+    font-family: LibreBaskerville;
+    font-size: 22px;
+    margin-bottom: 0px;
+    opacity: 0.7;
+}
+.contentSection h1{
+    color: white;
+    font-family: LibreBaskerville;
+    font-size: 36px;
+}
+.contentSection h4{
+    opacity: 0.6;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: Montserrat;
+}
+.treatments h6{
+    font-size: 12px;
+}
+.treatments h2{
+    font-family: LibreBaskerville;
+    color: #13123f;
+    font-size: 28px;
+}
+.treatments p{
+    font-size: 18px;
+    font-family: Montserrat;
+    color: #13123f;
+    opacity: 0.5;
+}
+.pHead{
+    font-family: LibreBaskerville;
+    font-size: 28px;
+    color: #13123f;
+}
+.ptext{
+    color: #13123f;
+    opacity: 0.5;
+    font-family: "AvenirNext";
+    font-size: 18px;
+}
+.btn-primary{
+    border-radius: 3px;
+    background-color: #3a8fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+@media screen and (max-width:600px){
+    .btn-primary{
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+    .accordion h5{
+        font-size: 15px;
+    }
+}
+.accordion .card-body{
+    padding-left: 0px;
+}
+.accordion .card:hover{
+    cursor: auto;
+    background: none;
 }
