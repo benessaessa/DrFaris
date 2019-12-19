@@ -570,21 +570,7 @@ p{
     font-weight: bold;
     font-family: Montserrat;
 }
-@media screen and (max-width:600px){
-    .btn-primary{
-        display: block;
-        width: 100%;
-        justify-content: center;
-    }
-    .accordion h5{
-        font-size: 15px;
-    }
-    .flex-wrap div{
-        margin: auto;
-        display: flex;
-        justify-content: center;
-    }
-}
+
 .accordion .card-body{
     padding-left: 0px;
 }
@@ -625,4 +611,28 @@ p{
 .flex-wrap img{
     width: 97px;
     height: 97px;
+}
+.largeNumber{
+    font-size: 4.8rem;
+    color: #130e49;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+@media screen and (max-width:600px){
+    .btn-primary{
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+    .accordion h5{
+        font-size: 15px;
+    }
+    .flex-wrap div{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .largeNumber{
+        font-size: 3rem;
+    }
 }
