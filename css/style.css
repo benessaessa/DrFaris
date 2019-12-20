@@ -262,8 +262,10 @@ p{
     color: #838383;
 }
 .carousel-indicators{
-    left: -8%;
-    z-index: 15;
+    display: flex;
+    justify-content: left;
+    /* left: -8%; */
+    /* z-index: 15; */
     right: unset;
     top: 17rem;
     float: left;
@@ -594,6 +596,16 @@ p{
     }
     .largeNumber{
         font-size: 3rem;
+    }
+}
+@media screen and (min-width:1400px){
+    .carousel-indicators{
+        left: 15%;
+    }
+}
+@media screen and (width:1024px){
+    .carousel-indicators{
+        top: 21rem;
     }
 }
 @media screen and (max-width:700px){
