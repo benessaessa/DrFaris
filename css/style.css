@@ -601,6 +601,7 @@ p{
 @media screen and (min-width:1400px){
     .carousel-indicators{
         left: 15%;
+        top: 21.5rem;
     }
 }
 @media screen and (width:1024px){
@@ -687,5 +688,10 @@ p{
 @media screen and (max-width:900px){
     .swiper-container{
         display: none;
+    }
+}
+@media screen and (min-width:1600px){
+    .container{
+        max-width: 1550px !important;
     }
 }
