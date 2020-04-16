@@ -27,6 +27,9 @@ p{
     line-height: normal;
     letter-spacing: normal;
 }
+.txtMons{
+    font-family: Montserrat;
+}
 .textHeader,.textHeader a{
     font-size: 12px;
     color: #130e49;
@@ -147,6 +150,14 @@ p{
     font-family: Montserrat;
     color: #13123f;
 }
+.txtMed{
+    font-size: 13px;
+    /* letter-spacing: 0.4px; */
+    opacity: 0.8;
+    font-family: Montserrat;
+    color: #13123f;
+}
+
 .vl {
     margin-top: 15px;
     display: flex;
@@ -685,13 +696,25 @@ p{
     width: 14px;
     height: 14px;
 }
+.induction:hover{
+    box-shadow: 0 10px 49px 9px rgba(0, 0, 0, 0.07), 0 12px 16px -7px rgba(0, 0, 0, 0.15);
+}
+.txtLink{
+    cursor: pointer;
+}
 @media screen and (max-width:900px){
     .swiper-container{
         display: none;
     }
 }
-@media screen and (min-width:1600px){
-    .container{
-        max-width: 1550px !important;
+@media screen and (min-width:340px) and (max-width:450px){
+    .textMedia a, .textMedia {
+        text-align: left;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:800px){
+    .textHeader, .textHeader a{
+        font-size: 11px;
     }
 }
