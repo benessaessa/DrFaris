@@ -37,6 +37,11 @@ p{
     opacity: 0.8;
     font-weight: 500;
 }
+.txtTeam{
+    color: #13123f;
+    font-family: Montserrat;
+    font-weight: 550;
+}
 .navbar-nav li.active a,.navbar-nav li.active a{
     color: #0b3e81 !important;
     font-weight: 900;
@@ -148,7 +153,7 @@ p{
     color: #13123f;
 }
 .textPageSmall{
-    font-size: 11px;
+    font-size: 14px;
     /* letter-spacing: 0.4px; */
     opacity: 0.8;
     font-family: Montserrat;
@@ -244,10 +249,24 @@ p{
     z-index: -1;
     overflow: hidden;
 }
+
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
     border-radius: 4px;
     box-shadow: 0 10px 49px 9px rgba(0, 0, 0, 0.07), 0 12px 16px -7px rgba(0, 0, 0, 0.15);
     background-color: #ffffff;
+}
+.team .nav-pills .nav-link, .nav-pills .show>.nav-link{
+    color: #06101c;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.team .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #2e7ae0;
+    border-radius: 25px;
+    color: white;
+}
+.team .nav-pills .nav-item{
+    padding-right: 1rem;
 }
 .slideSection{  
     padding: 6%;
@@ -515,7 +534,7 @@ p{
     font-size: 36px;
 }
 .contentSection h4{
-    opacity: 0.6;
+    opacity: 0.8;
     font-size: 14px;
     color: #ffffff;
     font-family: Montserrat;
@@ -543,7 +562,7 @@ p{
     color: #13123f;
     opacity: 0.8;
     font-family: "AvenirNext";
-    font-size: 16px;
+    font-size: 17px;
 }
 .btn-primary{
     border-radius: 3px;
@@ -582,6 +601,17 @@ p{
     font-family: LibreBaskerville;
     font-size: 40px;
     color: #06041a;
+}
+
+.imgCircle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.hTeam{
+    color: #333333;
+    font-family: Montserrat;
+    font-weight: 700;
 }
 .rate{
     opacity: 0.6;
@@ -624,9 +654,9 @@ p{
         top: 21.5rem;
     }
 }
-@media screen and (width:1024px){
+@media screen and (min-width:1000px) and (max-width:1260px){
     .carousel-indicators{
-        top: 21rem;
+        top: 21.5rem;
     }
 }
 @media screen and (max-width:700px){
@@ -743,3 +773,4 @@ p{
         display: none;
     }
 }
+/* ========================================================= */
