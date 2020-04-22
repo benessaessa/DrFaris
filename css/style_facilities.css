@@ -6,13 +6,15 @@ body {
 
 .swiper-container {
   width: 100%;
-  height: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 .swiper-slide {
   background-size: cover;
   background-position: center;
+}
+.sw1{
+  height: 320px !important;
 }
 .gallery-top {
   height: 80%;
@@ -24,10 +26,22 @@ body {
   padding: 10px 0;
 }
 .gallery-thumbs .swiper-slide {
-  width: 25%;
-  height: 100%;
-  opacity: 0.4;
+  width: 113pt;
+  height: 72pt;
+  opacity: 0.8;
 }
 .gallery-thumbs .swiper-slide-thumb-active {
   opacity: 1;
+}
+.gallery-top .swiper-wrapper .swiper-slide{
+  width: 100%;
+  height: 350px;
+}
+.swiper-slide{
+  cursor: pointer;
+}
+@media screen and (max-width:500px){
+  .gallery-thumbs .swiper-slide{
+      height: 50%;
+  }
 }

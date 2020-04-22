@@ -42,6 +42,9 @@ p{
     font-family: Montserrat;
     font-weight: 550;
 }
+.colorB{
+    color: #1a1945;
+}
 .navbar-nav li.active a,.navbar-nav li.active a{
     color: #0b3e81 !important;
     font-weight: 900;
@@ -212,7 +215,7 @@ p{
 }
 .jumbotron p{
     font-family: Montserrat;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .contentText h4{
     font-family: LibreBaskerville;
@@ -559,7 +562,7 @@ p{
     color: #13123f;
 }
 .ptext{
-    color: #13123f;
+    color: #06101c;
     opacity: 0.8;
     font-family: "AvenirNext";
     font-size: 17px;
@@ -747,10 +750,14 @@ p{
     background-size: cover;
     min-height: 330px;
 }
+
+.swiper-button-next:after, .swiper-button-prev:after,.swiper-button-before:after, .swiper-button-next:after{
+    display: none;
+}
 @media screen and (max-width:900px){
-    .swiper-container{
+    /* .swiper-container{
         display: none;
-    }
+    } */
 }
 @media screen and (min-width:340px) and (max-width:450px){
     .textMedia a, .textMedia {
@@ -774,3 +781,14 @@ p{
     }
 }
 /* ========================================================= */
+.facility .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: white;
+    color: #141d5f;
+    box-shadow: none;
+    font-weight: bold;
+    font-family: AvenirNext;
+    border-bottom: 4px solid #141d5f;
+}
+.facility .nav-pills .nav-link{
+    padding-right: 1.2rem;
+}
