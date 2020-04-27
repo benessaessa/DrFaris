@@ -30,6 +30,9 @@ p{
 .txtMons{
     font-family: Montserrat;
 }
+.txtLibre{
+    font-family: 'Libre Baskerville', serif;
+}
 .textHeader,.textHeader a{
     font-size: 12px;
     color: #130e49;
@@ -135,7 +138,7 @@ p{
     color: #13123f;
     font-weight: 500;
     line-height: 1.43;
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
 }
 .textPage{
     font-size: 14px;
@@ -186,7 +189,7 @@ p{
     font-family: Montserrat;
     border: solid 1.4px #ffffff;
     border-radius: 3px;
-    padding: 0.8rem 2rem;
+    padding: 0.8rem 1rem;
 }
 .btn-outline-light:hover{
     color: #338cff;
@@ -210,7 +213,7 @@ p{
     background-color: #338cff;
 }
 .jumbotron h4{
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
     font-size: 26px;
 }
 .jumbotron p{
@@ -218,7 +221,7 @@ p{
     opacity: 0.8;
 }
 .contentText h4{
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
     font-size: 18px;
     font-weight: bold;
     line-height: 2.86;
@@ -281,8 +284,8 @@ p{
   
 }
 .secHide h2{
-    font-family: LibreBaskerville;
-    font-size: 28px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
     line-height: 1.37;
     color: #13123f;
 }
@@ -396,7 +399,7 @@ p{
     font-weight: bold;
 }
 .jumbotron h3{
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
     font-size: 32px;
     font-weight: bold;
     line-height: 1.43;
@@ -411,7 +414,7 @@ p{
     color: #ffffff;
 }
 .treat{
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
     color: #13123f;
     font-size: 34px;
     padding-left: 1rem;
@@ -443,7 +446,7 @@ p{
 }
 .jumbotronFooterAbout h4{
     color: #27264f;
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
 }
 .quickLinks a{
     font-family: Montserrat;
@@ -526,14 +529,14 @@ p{
 }
 .contentSection h2{
     color: #ffffff;
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
     font-size: 22px;
     margin-bottom: 0px;
     opacity: 0.7;
 }
 .contentSection h1{
     color: white;
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
     font-size: 36px;
 }
 .contentSection h4{
@@ -546,18 +549,17 @@ p{
     font-size: 12px;
 }
 .treatments h2{
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
     color: #13123f;
-    font-size: 28px;
 }
-.treatments p{
-    font-size: 18px;
+.treatments p,.pMe{
+    font-size: 15px;
     font-family: Montserrat;
     color: #13123f;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .pHead{
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
     font-size: 28px;
     color: #13123f;
 }
@@ -594,14 +596,14 @@ p{
     color: #0d1e34;
 }
 .aboutTeam{
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
     font-size: 28px;
     font-weight: bold;
     color: #1a1945;
 }
 .number{
     opacity: 0.8;
-    font-family: LibreBaskerville;
+    font-family: 'Libre Baskerville', serif;
     font-size: 40px;
     color: #06041a;
 }
@@ -786,7 +788,7 @@ p{
     color: #141d5f;
     box-shadow: none;
     font-weight: bold;
-    font-family: AvenirNext;
+    /* font-family: AvenirNext; */
     border-bottom: 4px solid #141d5f;
 }
 .facility .nav-pills .nav-link{

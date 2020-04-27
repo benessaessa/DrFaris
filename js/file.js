@@ -52,6 +52,24 @@ function showMore3()
 
 
 }
+function showMore4()
+{
+    if ($('.threedots4').css('display')=='none')
+    {
+        //already showing, we hide
+            $('.threedots4').show();
+            $('.full_desc4').hide();
+    }
+    else
+    {
+            //show more
+            $('.threedots4').hide();
+            $('.full_desc4').show();
+
+    }
+
+
+}
 function showMoreG()
 {
     if ($('.threedotsG').css('display')=='none')
