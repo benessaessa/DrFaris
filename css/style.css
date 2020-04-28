@@ -743,6 +743,10 @@ p{
 .induction:hover,.induction2{
     box-shadow: 0 10px 49px 9px rgba(0, 0, 0, 0.07), 0 12px 16px -7px rgba(0, 0, 0, 0.15);
 }
+.induction h6{
+    color: #13123f;
+    font-size: 15px;
+}
 .txtLink{
     cursor: pointer;
 }
@@ -752,7 +756,9 @@ p{
     background-size: cover;
     min-height: 330px;
 }
-
+.bdg{
+    border-radius: 25px;
+}
 .swiper-button-next:after, .swiper-button-prev:after,.swiper-button-before:after, .swiper-button-next:after{
     display: none;
 }
