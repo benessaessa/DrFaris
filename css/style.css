@@ -759,6 +759,11 @@ p{
 .bdg{
     border-radius: 25px;
 }
+.sticky {
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+}
 .swiper-button-next:after, .swiper-button-prev:after,.swiper-button-before:after, .swiper-button-next:after{
     display: none;
 }
