@@ -488,7 +488,7 @@
                     </div>
                     <div class="col-sm-6 col-12">
                         <div class="pt-5 fRight">
-                            <button class="btn btn-outline-light  mr-2 ">BOOK AN APPOINTMENT</button>
+                            <button class="btn btn-outline-light  mr-2" data-toggle="modal" data-target="#bookAppointment">BOOK AN APPOINTMENT</button>
                             <button class="btn btn-outline-light"> SEE OUR LOCATIONS </button>
                         </div>
                     </div>
@@ -557,6 +557,55 @@
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3 col-5">
                         <p class="textHeader textMedia"><img class="pr-2" src="images/call.svg"> 011 2944 2496</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="bookAppointment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content p-2">
+                <div class="modal-header pb-0 border-bottom-0">
+                    <h6 class="text-primary txtMons">RESERVE</h6>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body pt-3">
+                    <h4 class="colorB txtLibre">Book an Appointment</h4>
+                    <p class="pMe">Easily and comfortably book a seat from the comfort of your home and one of our agents will be in touch with you shortly</p>
+                    <div class="pt-3">
+                        <form class="form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="name" class="pMe">NAME</label>
+                                        <input type="text" id="name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="phone" class="pMe">PHONE NUMBER</label>
+                                        <input type="tel" id="phone" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="pMe"> SELECT INQUIRY</label>
+                                <select class="form-control form-control">
+                                <option>I’m pregnant and I need follow-up</option>
+                                <option>I’m pregnant and I need follow-up</option>
+                                <option>I’m pregnant and I need follow-up</option>
+                                </select>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button class="btn btnBook btn-block my-1">SEND</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
