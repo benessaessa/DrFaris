@@ -127,6 +127,17 @@ p{
     color: #13123f;
     opacity: 0.5;
 }
+.willHover{
+    padding: 1rem;
+}
+.willHover:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 38px 7px rgba(0, 0, 0, 0.07), 0 9px 12px -5px rgba(0, 0, 0, 0.15);
+}
+.list-group .list-group-item{
+    color: #125ec4;
+    font-size: 13px;
+}
 @media screen and (min-width:800px){
 
     .card1{
@@ -163,6 +174,13 @@ p{
 }
 .textPageSmall{
     font-size: 14px;
+    /* letter-spacing: 0.4px; */
+    opacity: 0.8;
+    font-family: Montserrat;
+    color: #13123f;
+}
+.textPageNos{
+    font-size: 12px;
     /* letter-spacing: 0.4px; */
     opacity: 0.8;
     font-family: Montserrat;
