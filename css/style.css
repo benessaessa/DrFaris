@@ -73,6 +73,21 @@ p{
 .hr2{
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
 }
+.tabFil{
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.tabLink .nav-link{
+    color: #13123f;
+    font-family: 'Libre Baskerville', serif;
+}
+.tabLink .nav-link.active{
+    color: #13123f;
+    font-weight: bold;
+}
+.rwFilter h6{
+    font-weight: bold;
+    font-size: 13px;
+}
 .textMedia{
     text-align: right;
 }
@@ -328,6 +343,7 @@ p{
     /* left: -8%; */
     /* z-index: 15; */
     right: unset;
+    z-index: 0;
     top: 17rem;
     float: left;
 }
@@ -514,8 +530,15 @@ p{
     background-size: cover;
     position: relative;
 }
+.heroF{
+    width: 100%;
+    height: 317px;
+    background: url(../images/fertility.png) top center;
+    background-size: cover;
+    position: relative;
+}
   
-.hero:before {
+.hero:before ,.heroF:before {
     position: absolute;
     bottom: 0;
     top: 0;
@@ -523,7 +546,7 @@ p{
     right: 0;
 }
 
-.hero .contentSection{
+.hero .contentSection , .heroF .contentSection{
     position: absolute;
     bottom: 0;
     top: 5rem;
@@ -531,6 +554,9 @@ p{
     /* right: 0; */
 }
 @media screen and (width:1024px){
+    .heroF .contentSection{
+        left: 3rem;
+    }
     .hero .contentSection{
         left: 3rem;
     }
@@ -539,9 +565,15 @@ p{
     .hero .contentSection{
         left: 10rem !important;
     }
+    .heroF .contentSection{
+        left: 10rem !important;
+    }
 }
 @media screen and (max-width:600px){
     .hero .contentSection{
+        left: 1.5rem !important;
+    }
+    .heroF .contentSection{
         left: 1.5rem !important;
     }
     .secondPage .cardDr{
