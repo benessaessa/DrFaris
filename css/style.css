@@ -540,8 +540,15 @@ p{
     background-size: cover;
     position: relative;
 }
+.obstetrics{
+    width: 100%;
+    height: 317px;
+    background: url(../images/obstrics.png) top center;
+    background-size: cover;
+    position: relative;
+}
   
-.hero:before ,.heroF:before {
+.hero:before ,.heroF:before ,.obstetrics:before {
     position: absolute;
     bottom: 0;
     top: 0;
@@ -549,7 +556,7 @@ p{
     right: 0;
 }
 
-.hero .contentSection , .heroF .contentSection{
+.hero .contentSection , .heroF .contentSection ,.obstetrics .contentSection{
     position: absolute;
     bottom: 0;
     top: 5rem;
@@ -558,6 +565,9 @@ p{
 }
 @media screen and (width:1024px){
     .heroF .contentSection{
+        left: 3rem;
+    }
+    .obstetrics .contentSection{
         left: 3rem;
     }
     .hero .contentSection{
@@ -571,12 +581,18 @@ p{
     .heroF .contentSection{
         left: 10rem !important;
     }
+    .obstetrics .contentSection{
+        left: 10rem !important;
+    }
 }
 @media screen and (max-width:600px){
     .hero .contentSection{
         left: 1.5rem !important;
     }
     .heroF .contentSection{
+        left: 1.5rem !important;
+    }
+    .obstetrics .contentSection{
         left: 1.5rem !important;
     }
     .secondPage .cardDr{
