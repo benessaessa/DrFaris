@@ -525,6 +525,28 @@ p{
     box-shadow: 0 8px 39px 7px rgba(0, 0, 0, 0.07), 0 10px 13px -6px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
+.weeks .nav-pills .nav-item{
+    background-color: white;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    box-shadow: 0 8px 39px 7px rgba(0, 0, 0, 0.07), 0 10px 13px -6px rgba(0, 0, 0, 0.15);
+}
+.weeks .nav-pills .nav-item .nav-link{
+    color: black;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    padding-top: 0.8rem;
+}
+.weeks .nav-pills .nav-item .nav-link.active{
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: #3a8fff;
+    border-radius: 25px;
+}
 /* ======================================================================================= */
 .hero {
     width: 100%;
