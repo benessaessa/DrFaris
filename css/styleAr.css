@@ -1,0 +1,168 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.nav-item .nav-link{
+    font-family: 'Cairo', sans-serif !important;
+}
+.navbar .nav-item .nav-link{
+    font-size: 14px;
+}
+.quickLinks a{
+    font-family: 'Cairo', sans-serif !important;
+}
+
+#navbar{
+    box-shadow: 0 8px 39px 7px rgba(255, 255, 255, 0.07), 0 10px 13px -6px rgba(0, 0, 0, 0.15);
+    direction: rtl;
+}
+.navbar .mr-auto{
+    margin-left: auto !important;
+}
+.navbar .ml-auto{
+    margin: unset !important;
+    justify-content: left;
+    display: flex;
+}
+.form-inline{
+    margin-right: auto !important;
+}
+.social_1{
+    padding-right: 0.5rem;
+}
+.baby .row{
+    direction: ltr !important;
+}
+.imgWidth {
+    position: absolute;
+    right: -145px;
+    max-height: 462px;
+    overflow: hidden !important;
+    top: -18px;
+    width: 120.5%;
+    left: -10px;
+    transform: scaleX(-1);
+    z-index: -1;
+    overflow: hidden;
+}
+.introduction h2{
+    line-height: 3rem;
+}
+.introduction{
+    text-align: right;
+}
+.tretms .float-right{
+    float: left !important;
+}
+.induction img{
+    margin-left: auto;
+    display: block;
+}
+.induction2 ,.induction,.modal-body,.quickLinks{
+    direction: rtl;
+    text-align: right;
+}
+.induction2 h5{
+    padding-right: 2rem;
+}
+.induction .text-left{
+    text-align: right !important;
+}
+.jumbotron{
+    text-align: right;
+    direction: rtl;
+}
+.fRight{
+    float: left;
+}
+.fRight button{
+    margin-right: 0.5rem;
+}
+.contentText{
+    direction: rtl;
+}
+.facility{
+    padding-right: 0;
+}
+.facility .nav{
+    direction: rtl;
+    padding-left: 1.1rem;
+}
+.news,.facily,.mapSec{
+    text-align: right;
+    direction: rtl;
+}
+.news .nav{
+    float: right;
+}
+.footer .links{
+    direction: rtl;
+    text-align: right;
+}
+.how{
+    text-align: right;
+    direction: rtl;
+}
+.sponser{
+    direction: rtl;
+    text-align: right;
+}
+.card-header a h5{
+    text-align: right;
+    direction: rtl;
+}
+.card-header a h5 .float-right{
+    float: left !important;
+}
+.card-body .text-left , .card-body{
+    text-align: right !important;
+}
+.fertility{
+    text-align: right;
+}
+.ourInfo{
+    direction: rtl;
+}
+.hero{
+    transform: scaleX(-1);
+}
+.hero .contentSection{
+    transform: scaleX(-1);
+    text-align: right;
+}
+.teamDr{
+    direction: rtl;
+    text-align: right;
+}
+.team ,.team .nav{
+    direction: rtl;
+    padding-right: 0;
+}
+.tretms,.fetureRow{
+    direction: rtl;
+    text-align: right;
+}
+.tab-content{
+    text-align: right;
+}
+@media screen and (max-width: 900px){
+    .fRight {
+        float: none;
+    }
+}
+@media screen and (max-width: 700px){
+.imgWidth {
+    position: relative !important;
+    right: 0;
+    /* max-height: 462px; */
+    overflow: hidden;
+    top: 0px;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+}
