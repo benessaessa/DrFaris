@@ -902,3 +902,20 @@ p{
 .facility .nav-pills .nav-link{
     padding-right: 1.2rem;
 }
+/* ============================================== */
+.news .card img ,.tretms .card img{
+    height: 12rem;
+    overflow: hidden;
+    object-fit: cover;
+}
+.form .form-control{
+    min-height: 3rem;
+    background-color: #f7f5fa;
+}
+textarea{
+    height: 11rem !important;
+}
+.no-gutters img{
+    margin: auto;
+    display: block;
+}
