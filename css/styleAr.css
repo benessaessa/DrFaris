@@ -50,6 +50,7 @@ p,
 }
 .introduction h2{
     line-height: 3rem;
+    font-size: 29px;
 }
 .introduction{
     text-align: right;
@@ -148,21 +149,76 @@ p,
 .tab-content{
     text-align: right;
 }
+.secondPage .card h5{
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem !important;
+    line-height: 14px;
+}
+.secondPage .card p{
+    margin-bottom: 0px;
+    font-size: 11.5px !important;
+    padding-top: 0px !important;
+}
+.carousel-inner .row{
+    direction: ltr !important;
+    text-align: right;
+}
+.carousel-inner .row img{
+    float: left !important;
+}
+.sponser img{
+    display: block;
+    margin: auto;
+}
+.btnBook ,.btn-primary ,.btn-outline-light{
+    font-size: 16px;
+    font-family: Cairo !important;
+    padding-top: 0.5rem !important;
+}
 @media screen and (max-width: 900px){
     .fRight {
         float: none;
     }
 }
 @media screen and (max-width: 700px){
-.imgWidth {
-    position: relative !important;
-    right: 0;
-    /* max-height: 462px; */
-    overflow: hidden;
-    top: 0px;
-    width: 100%;
-    left: 0;
-    z-index: -1;
-    overflow: hidden;
+    .imgWidth {
+        position: relative !important;
+        right: 0;
+        /* max-height: 462px; */
+        overflow: hidden;
+        top: 0px;
+        width: 100%;
+        left: 0;
+        z-index: -1;
+        overflow: hidden;
+    }
+    .firstHead div:first .textHeader{
+        /* direction: rtl; */
+        text-align: right;
+    }
 }
+@media screen and (max-width: 800px){
+    .secondPage .card p{
+        font-size: 14px !important;
+    }
+    .imgWidth {
+        right: 0;
+        /* max-height: 462px; */
+        overflow: hidden;
+        top: 0px;
+        width: 100% !important;
+        left: 0;
+        z-index: -1;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 360px){
+    .secondPage .card p{
+        font-size: 13px !important;
+    }
+}
+@media screen and (min-width:900px) and (max-width:3600px){
+    .carousel-indicators{
+        top: 18.5rem;
+    }
 }
